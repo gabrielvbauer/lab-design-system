@@ -36,7 +36,7 @@ function TextInputInput({ ...rest }: TextInputInputProps) {
 
   return (
     <input
-      className='bg-transparent flex-1 h-full w-full text-gray-100 text-xs placeholder:text-gray-400 outline-none'
+      className='bg-transparent flex-1 w-full text-gray-100 text-xs placeholder:text-gray-400 outline-none'
       {...rest}
     />
   )
